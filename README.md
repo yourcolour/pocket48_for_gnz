@@ -8,11 +8,14 @@
 * weibo_plugin(微博监听插件)
 * wds_plugin（微打赏监听插件)
 
-口袋48插件2分钟监听一次，微博插件1分钟监听一次，微打赏插件1分钟监听一次（可以自行调整）
+口袋48插件2分钟监听一次，微博插件1分钟监听一次，微打赏插件1分钟监听一次（可以自行调整
+
+### 配置文件修改
+* 先到conf.ini修改作为机器人的qq号,口袋IMEI号,口袋密码,账号
 
 ### coolq配置
 * 具体使用请参照(https://richardchien.github.io/coolq-http-api)
-* 默认使用酷Q付费版,支持语音和图片消息(依赖主机的ffmepg,gcc,同时需要安装[https://cqp.cc/t/21132](酷q语音组件))
+* 默认使用酷Q付费版,支持语音和图片消息(依赖主机的ffmepg,gcc,同时需要安装[酷q语音组件](https://cqp.cc/t/21132))
 * 如使用免费版酷Q,需要到auto_login.py修改cool_url地址,同时修改conf.ini文件选项:using_coolq_pro=no
 * 先启动auto_login.py启动docker(需要先安装chromediver), 再启动main.py
  
