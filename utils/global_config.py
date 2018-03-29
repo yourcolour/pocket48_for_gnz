@@ -1,0 +1,54 @@
+# -*- coding: utf-8 -*-
+# 机器人的qq号码
+ROBOT_QQ = ''
+
+# -*- coding: utf-8 -*-
+USING_COOLQ_PRO=False
+POCKET48_VERSION = ''
+IMEI = ''
+
+# 所有成员的个人信息
+MEMBER_JSON = {}
+
+# QQ群
+AUTO_REPLY_GROUPS = []
+MEMBER_ROOM_MSG_GROUPS = []
+MEMBER_ROOM_COMMENT_GROUPS = []
+MEMBER_WEIBO_GROUPS = []
+MEMBER_LIVE_GROUPS = []
+JIZI_NOTIFY_GROUPS = []
+
+AT_AUTO_REPLY = []
+# 公演直播提醒语
+PERFORMANCE_NOTIFY = ''
+# 公演直播地址
+LIVE_LINK = ''
+# 无法识别命令提示语
+NO_SUCH_COMMAND = ''
+
+# 票务
+TICKET_INFO = []
+
+
+# 群内人数监控
+GROUP_MEMBER_NUM = {}
+
+# 小白屋room_id列表
+ACTIVE_MEMBER_ROOM_ID_LIST = []
+# 小黑屋room_id列表
+DEACTIVE_MEMBER_ROOM_ID_LIST = []
+
+# 今日有缘成员信息
+LUCKY_MEMBERS_INFO = []
+
+# 成员member_id列表 直播提醒
+LIVING_MEMBER_ID_LIST = []
+
+# 摩点
+MODIAN_ARRAY = []
+MODIAN_PK_ARRAY = []
+MODIAN_NEED_DISPLAY_PK = False
+MODIAN_POSTSCRIPTS = []
+MODIAN_JIEBANG_ACTIVITIES = {}
+MODIAN_FLAG_ACTIVITIES = {}
+

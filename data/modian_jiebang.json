@@ -1,0 +1,12 @@
+{
+  "activities": [
+    {
+      "jiebang_name": "限时活动名称",
+      "pro_id": "10999",
+      "target_stick_num": 200,
+      "min_stick_amount": 1.00,
+      "start_time": "2018-02-19 15:30:00",
+      "end_time": "2018-02-26 18:00:00"
+    }
+  ]
+}

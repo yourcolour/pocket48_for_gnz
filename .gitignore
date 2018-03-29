@@ -1,0 +1,7 @@
+*.db
+*.pyc
+.idea/
+venv/
+*/__pycache__/
+tmp-record/record-aac/
+tmp-record/record-raw/

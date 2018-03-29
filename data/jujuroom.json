@@ -1,0 +1,334 @@
+{
+    "room_ids": [
+        {
+            "chinese_name": "陈珂",
+            "pin_yin": "chenke",
+            "room_id": 5771862
+        },
+        {
+            "chinese_name": "陈雨琪",
+            "pin_yin": "chenyuqi",
+            "room_id": 5776933
+        },
+        {
+            "chinese_name": "高源婧",
+            "pin_yin": "gaoyuanjing",
+            "room_id": 5776938
+        },
+        {
+            "chinese_name": "林嘉佩",
+            "pin_yin": "linjiapei",
+            "room_id": 5777232
+        },
+        {
+            "chinese_name": "李沁洁",
+            "pin_yin": "liqinjie",
+            "room_id": 5774523
+        },
+        {
+            "chinese_name": "谢蕾蕾",
+            "pin_yin": "xieleilei",
+            "room_id": 5783256
+        },
+        {
+            "chinese_name": "阳青颖",
+            "pin_yin": "yangqingying",
+            "room_id": 5779228
+        },
+        {
+            "chinese_name": "曾艾佳",
+            "pin_yin": "zengaijia",
+            "room_id": 5774530
+        },
+        {
+            "chinese_name": "罗寒月",
+            "pin_yin": "luohanyue",
+            "room_id": 5758967
+        },
+        {
+            "chinese_name": "张琼予",
+            "pin_yin": "zhangqiongyu",
+            "room_id": 5783223
+        },
+        {
+            "chinese_name": "黄黎蓉",
+            "pin_yin": "huanglirong",
+            "room_id": 5771886
+        },
+        {
+            "chinese_name": "陈佳莹",
+            "pin_yin": "chenjiaying",
+            "room_id": 9342446
+        },
+        {
+            "chinese_name": "陈俊宏",
+            "pin_yin": "chenjunhong",
+            "room_id": 9337363
+        },
+        {
+            "chinese_name": "方晓瑜",
+            "pin_yin": "fangxiaoyu",
+            "room_id": 9341101
+        },
+        {
+            "chinese_name": "梁可",
+            "pin_yin": "liangke",
+            "room_id": 9335784
+        },
+        {
+            "chinese_name": "朱怡欣",
+            "pin_yin": "zhuyixin",
+            "room_id": 9340808
+        },
+        {
+            "chinese_name": "陈慧婧",
+            "pin_yin": "chenhuijing",
+            "room_id": 5776961
+        },
+        {
+            "chinese_name": "陈楠茜",
+            "pin_yin": "chennanxi",
+            "room_id": 5777241
+        },
+        {
+            "chinese_name": "陈欣妤",
+            "pin_yin": "chenxinyu",
+            "room_id": 5771868
+        },
+        {
+            "chinese_name": "冯嘉希",
+            "pin_yin": "fengjiaxi",
+            "room_id": 5779220
+        },
+        {
+            "chinese_name": "洪静雯",
+            "pin_yin": "hongjingwen",
+            "room_id": 5776962
+        },
+        {
+            "chinese_name": "刘力菲",
+            "pin_yin": "liulifei",
+            "room_id": 5770634
+        },
+        {
+            "chinese_name": "刘倩倩",
+            "pin_yin": "liuqianqian",
+            "room_id": 5758968
+        },
+        {
+            "chinese_name": "卢静",
+            "pin_yin": "lujing",
+            "room_id": 5777242
+        },
+        {
+            "chinese_name": "唐莉佳",
+            "pin_yin": "tanglijia",
+            "room_id": 5771871
+        },
+        {
+            "chinese_name": "冼燊楠",
+            "pin_yin": "xianshennan",
+            "room_id": 5771872
+        },
+        {
+            "chinese_name": "肖文铃",
+            "pin_yin": "xiaowenling",
+            "room_id": 5777243
+        },
+        {
+            "chinese_name": "熊心瑶",
+            "pin_yin": "xiongxinyao",
+            "room_id": 5771873
+        },
+        {
+            "chinese_name": "郑丹妮",
+            "pin_yin": "zhengdanni",
+            "room_id": 5776963
+        },
+        {
+            "chinese_name": "左嘉欣",
+            "pin_yin": "zuojiaxin",
+            "room_id": 5758969
+        },
+        {
+            "chinese_name": "左婧媛",
+            "pin_yin": "zuojingyuan",
+            "room_id": 5782038
+        },
+        {
+            "chinese_name": "高雪逸",
+            "pin_yin": "gaoxueyi",
+            "room_id": 9338140
+        },
+        {
+            "chinese_name": "唐诗怡",
+            "pin_yin": "tangshiyi",
+            "room_id": 9335706
+        },
+        {
+            "chinese_name": "谢艾琳",
+            "pin_yin": "xieailin",
+            "room_id": 9339220
+        },
+        {
+            "chinese_name": "郑悦",
+            "pin_yin": "zhengyue",
+            "room_id": 9333412
+        },
+        {
+            "chinese_name": "陈桂君",
+            "pin_yin": "chenguijun",
+            "room_id": 5779225
+        },
+        {
+            "chinese_name": "陈梓荧",
+            "pin_yin": "chenziying",
+            "room_id": 5758974
+        },
+        {
+            "chinese_name": "杜秋霖",
+            "pin_yin": "duqiulin",
+            "room_id": 5773822
+        },
+        {
+            "chinese_name": "刘嘉怡",
+            "pin_yin": "liujiayi",
+            "room_id": 5770639
+        },
+        {
+            "chinese_name": "龙亦瑞",
+            "pin_yin": "longyirui",
+            "room_id": 5770640
+        },
+        {
+            "chinese_name": "农燕萍",
+            "pin_yin": "nongyanping",
+            "room_id": 5770641
+        },
+        {
+            "chinese_name": "王翠菲",
+            "pin_yin": "wangcuifei",
+            "room_id": 5770642
+        },
+        {
+            "chinese_name": "王偲越",
+            "pin_yin": "wangsiyue",
+            "room_id": 5773823
+        },
+        {
+            "chinese_name": "王秭歆",
+            "pin_yin": "wangzixin",
+            "room_id": 5779226
+        },
+        {
+            "chinese_name": "杨可璐",
+            "pin_yin": "yangkelu",
+            "room_id": 5783238
+        },
+        {
+            "chinese_name": "杨媛媛",
+            "pin_yin": "yangyuanyuan",
+            "room_id": 5776973
+        },
+        {
+            "chinese_name": "于珊珊",
+            "pin_yin": "yushanshan",
+            "room_id": 5783240
+        },
+        {
+            "chinese_name": "赖俊亦",
+            "pin_yin": "laijunyi",
+            "room_id": 9332797
+        },
+        {
+            "chinese_name": "梁婉琳",
+            "pin_yin": "liangwanlin",
+            "room_id": 18706972
+        },
+        {
+            "chinese_name": "毕瑞珊",
+            "pin_yin": "biruishan",
+            "room_id": 18709668
+        },
+        {
+            "chinese_name": "何梦瑶",
+            "pin_yin": "hemengyao",
+            "room_id": 18717305
+        },
+        {
+            "chinese_name": "余芷媛",
+            "pin_yin": "yuzhiyuan",
+            "room_id": 18696906
+        },
+        {
+            "chinese_name": "程子钰",
+            "pin_yin": "chengziyu",
+            "room_id": 18724509
+        },
+        {
+            "chinese_name": "邓惠恩",
+            "pin_yin": "denghuien",
+            "room_id": 18716764
+        },
+        {
+            "chinese_name": "黄楚茵",
+            "pin_yin": "huangchuyin",
+            "room_id": 18721105
+        },
+        {
+            "chinese_name": "罗可嘉",
+            "pin_yin": "luokejia",
+            "room_id": 18716506
+        },
+        {
+            "chinese_name": "林芝",
+            "pin_yin": "linzhi",
+            "room_id": 18712468
+        },
+        {
+            "chinese_name": "汪慕远",
+            "pin_yin": "wangmuyuan",
+            "room_id": 18710871
+        },
+        {
+            "chinese_name": "吴羽霏",
+            "pin_yin": "wuyufei",
+            "room_id": 18709707
+        },
+        {
+            "chinese_name": "叶晓梦",
+            "pin_yin": "yexiaomeng",
+            "room_id": 18713709
+        },
+        {
+            "chinese_name": "李晨曦",
+            "pin_yin": "lichenxi",
+            "room_id": 21673709
+        },
+        {
+            "chinese_name": "舒湘",
+            "pin_yin": "shuxiang",
+            "room_id": 21519222
+        },
+        {
+            "chinese_name": "王梦媛",
+            "pin_yin": "wangmengyuan",
+            "room_id": 21536978
+        },
+        {
+            "chinese_name": "徐佳音",
+            "pin_yin": "xujiayin",
+            "room_id": 21664007
+        },
+        {
+            "chinese_name": "肖文静",
+            "pin_yin": "xiaowenjing",
+            "room_id": 21545705
+        },
+        {
+            "chinese_name": "张紫颖",
+            "pin_yin": "zhangziying",
+            "room_id": 21529013
+        }
+    ]
+}

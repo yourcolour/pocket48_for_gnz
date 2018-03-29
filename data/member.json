@@ -1,0 +1,564 @@
+{
+	"members": [
+		{
+			"chinese_name": "陈珂",
+			"pin_yin": "chenke",
+			"nicknames": "陈王可;CK",
+			"catch_phase": "多C多健康，每天都来一份~~ 活力维C！",
+			"member_id": 63548,
+			"weibo_uid": 5680339910
+		},
+		{
+			"chinese_name": "陈雨琪",
+			"pin_yin": "chenyuqi",
+			"nicknames": "团子",
+			"catch_phase": "一手把你抱走的~~ 暴走团子！",
+			"member_id": 63552,
+			"weibo_uid": 5681354886
+		},
+		{
+			"chinese_name": "高源婧",
+			"pin_yin": "gaoyuanjing",
+			"nicknames": "小狐狸;大盘鸡;大魔王;大魔鸡;干净",
+			"catch_phase": "我不管,我就是~~ 大魔王(大盘鸡)!",
+			"member_id": 63557,
+			"weibo_uid": 5685467003
+		},
+		{
+			"chinese_name": "林嘉佩",
+			"pin_yin": "linjiapei",
+			"nicknames": "塔塔",
+			"catch_phase": "林家小妹在哪里~~ 在这里！",
+			"member_id": 63562,
+			"weibo_uid": 5681828458
+		},
+		{
+			"chinese_name": "李沁洁",
+			"pin_yin": "liqinjie",
+			"nicknames": "色管;kiko",
+			"catch_phase": "Kiko Kiko~~ 笑眯眯",
+			"member_id": 63564,
+			"weibo_uid": 5681479865
+		},
+		{
+			"chinese_name": "谢蕾蕾",
+			"pin_yin": "xieleilei",
+			"nicknames": "谢蠢蠢;谢小埋",
+			"catch_phase": "谢谢你，谢谢大家，还有别忘了~~ 谢谢蕾蕾！",
+			"member_id": 63572,
+			"weibo_uid": 5786332015
+		},
+		{
+			"chinese_name": "阳青颖",
+			"pin_yin": "yangqingying",
+			"nicknames": "辣条",
+			"catch_phase": "【唱】夏天夏天悄悄过去 ~~【唱】留下小青颖",
+			"member_id": 63576,
+			"weibo_uid": 5786337946
+		},
+		{
+			"chinese_name": "曾艾佳",
+			"pin_yin": "zengaijia",
+			"nicknames": "艾佳",
+			"catch_phase": "爱家爱生活，把爱~~ 带回家",
+			"member_id": 63577,
+			"weibo_uid": 5787334703
+		},
+		{
+			"chinese_name": "罗寒月",
+			"pin_yin": "luohanyue",
+			"nicknames": "罗老师;中泰rap王;MC King",
+			"catch_phase": "",
+			"member_id": 327558,
+			"weibo_uid": 5886586996
+		},
+		{
+			"chinese_name": "张琼予",
+			"pin_yin": "zhangqiongyu",
+			"nicknames": "小腮帮;soso",
+			"catch_phase": "湿湿碎,麻麻地,唔该唔该~~ 冇问题",
+			"member_id": 327560,
+			"weibo_uid": 5886585193
+		},
+		{
+			"chinese_name": "黄黎蓉",
+			"pin_yin": "huanglirong",
+			"nicknames": "莲蓉蛋",
+			"catch_phase": "咕噜咕噜，滚来一颗~~ 莲蓉蛋",
+			"member_id": 410175,
+			"weibo_uid": 6033592700
+		},
+		{
+			"chinese_name": "陈佳莹",
+			"pin_yin": "chenjiaying",
+			"nicknames": "小家伙",
+			"catch_phase": "你们要守护的有亲情、友情，还有~~ 陈！佳！莹！",
+			"member_id": 530431,
+			"weibo_uid": 6221966810
+		},
+		{
+			"chinese_name": "陈俊宏",
+			"pin_yin": "chenjunhong",
+			"nicknames": "夜喵",
+			"catch_phase": "白喵、橘喵、大灰喵 队友：我最喜欢~~ 小夜喵",
+			"member_id": 530433,
+			"weibo_uid": 6226275725
+		},
+		{
+			"chinese_name": "方晓瑜",
+			"pin_yin": "fangxiaoyu",
+			"nicknames": "小鱼",
+			"catch_phase": "放长线,钓~~ 小鱼",
+			"member_id": 530436,
+			"weibo_uid": 6224134031
+		},
+		{
+			"chinese_name": "梁可",
+			"pin_yin": "liangke",
+			"nicknames": "可可",
+			"catch_phase": "炎热（凉爽）的夏天（秋天）需要一杯冰凉(暖暖)的~~ 可可！",
+			"member_id": 530443,
+			"weibo_uid": 6228889272
+		},
+		{
+			"chinese_name": "朱怡欣",
+			"pin_yin": "zhuyixin",
+			"nicknames": "ggb",
+			"catch_phase": "在童话里做英雄的是~~ GG Bond!",
+			"member_id": 530452,
+			"weibo_uid": 6224125612
+		},
+		{
+			"chinese_name": "陈慧婧",
+			"pin_yin": "chenhuijing",
+			"nicknames": "陈老板",
+			"catch_phase": "开启魔镜的咒语是~~ 封！印！解！除！",
+			"member_id": 327562,
+			"weibo_uid": 5887698175
+		},
+		{
+			"chinese_name": "陈楠茜",
+			"pin_yin": "chennanxi",
+			"nicknames": "北哥",
+			"catch_phase": "茉莉冻奶昔，最爱~~ 陈！楠！茜！",
+			"member_id": 327563,
+			"weibo_uid": 5886589255
+		},
+		{
+			"chinese_name": "陈欣妤",
+			"pin_yin": "chenxinyu",
+			"nicknames": "金鱼",
+			"catch_phase": "金鱼的记忆只有7秒，而你们7秒的记忆里全部都是~~ 陈！欣！妤！",
+			"member_id": 327564,
+			"weibo_uid": 5886364814
+		},
+		{
+			"chinese_name": "冯嘉希",
+			"pin_yin": "fengjiaxi",
+			"nicknames": "巴扎嘿;冯噶嘿;希仔",
+			"catch_phase": "世界五彩 你选希仔！",
+			"member_id": 327565,
+			"weibo_uid": 5887712082
+		},
+		{
+			"chinese_name": "洪静雯",
+			"pin_yin": "hongjingwen",
+			"nicknames": "奶盖",
+			"catch_phase": "苦苦的茶记得要配上甜甜的~~ 奶！盖（Gay）！",
+			"member_id": 327566,
+			"weibo_uid": 5885955392
+		},
+		{
+			"chinese_name": "刘力菲",
+			"pin_yin": "liulifei",
+			"nicknames": "藤藤菜;菲菲;中泰小仙女",
+			"catch_phase": "吃了藤藤菜，就是~~ 长得帅",
+			"member_id": 327567,
+			"weibo_uid": 5887863238
+		},
+		{
+			"chinese_name": "刘倩倩",
+			"pin_yin": "liuqianqian",
+			"nicknames": "677",
+			"catch_phase": "6767~~ 677！",
+			"member_id": 327568,
+			"weibo_uid": 5885708534
+		},
+		{
+			"chinese_name": "卢静",
+			"pin_yin": "lujing",
+			"nicknames": "闹闹",
+			"catch_phase": "嘘，别闹~~ 我想静静",
+			"member_id": 327569,
+			"weibo_uid": 5886364444
+		},
+		{
+			"chinese_name": "孙馨",
+			"pin_yin": "sunxing",
+			"nicknames": "小老虎",
+			"catch_phase": "天王盖地虎！队友：孙馨小老虎!  宝塔镇河妖！队友：孙馨小蛮（没有）腰！",
+			"member_id": 327570,
+			"weibo_uid": 5887714199
+		},
+		{
+			"chinese_name": "唐莉佳",
+			"pin_yin": "tanglijia",
+			"nicknames": "学姐;liga",
+			"catch_phase": "",
+			"member_id": 327571,
+			"weibo_uid": 5885940120
+		},
+		{
+			"chinese_name": "冼燊楠",
+			"pin_yin": "xianshennan",
+			"nicknames": "兔子",
+			"catch_phase": "Jump! Jump! 跳出一只~~ Usagi!",
+			"member_id": 327572,
+			"weibo_uid": 5887054947
+		},
+		{
+			"chinese_name": "肖文铃",
+			"pin_yin": "xiaowenling",
+			"nicknames": "小铃铛",
+			"catch_phase": "叮叮当当~~ 小铃铛！",
+			"member_id": 327573,
+			"weibo_uid": 5885954688
+		},
+		{
+			"chinese_name": "熊心瑶",
+			"pin_yin": "xiongxinyao",
+			"nicknames": "苞谷",
+			"catch_phase": "你心里的遥控器~~ SwitchOn！",
+			"member_id": 327574,
+			"weibo_uid": 5887697862
+		},
+		{
+			"chinese_name": "郑丹妮",
+			"pin_yin": "zhengdanni",
+			"nicknames": "蒸蛋;皮皮蛋",
+			"catch_phase": "肚子饿了要吃饭，酒窝配上~~ 蒸！蛋！",
+			"member_id": 327575,
+			"weibo_uid": 5887697249
+		},
+		{
+			"chinese_name": "左嘉欣",
+			"pin_yin": "zuojiaxin",
+			"nicknames": "扎心",
+			"catch_phase": "加班加点也要~~ 加薪！",
+			"member_id": 327576,
+			"weibo_uid": 5885722642
+		},
+		{
+			"chinese_name": "左婧媛",
+			"pin_yin": "zuojingyuan",
+			"nicknames": "左左;金毛",
+			"catch_phase": "立正！向左看~~ 齐！",
+			"member_id": 327577,
+			"weibo_uid": 5885812685
+		},
+		{
+			"chinese_name": "高雪逸",
+			"pin_yin": "gaoxueyi",
+			"nicknames": "小高;喷嚏;果核",
+			"catch_phase": "白雪皑皑，雪逸不矮",
+			"member_id": 530439,
+			"weibo_uid": 6220528915
+		},
+		{
+			"chinese_name": "唐诗怡",
+			"pin_yin": "tangshiyi",
+			"nicknames": "糖宝",
+			"catch_phase": "糖儿甜蜜蜜，蜜糖甜甜~~ 有诗意",
+			"member_id": 530446,
+			"weibo_uid": 6218540972
+		},
+		{
+			"chinese_name": "谢艾琳",
+			"pin_yin": "xieailin",
+			"nicknames": "420",
+			"catch_phase": "",
+			"member_id": 530447,
+			"weibo_uid": 6218543083
+		},
+		{
+			"chinese_name": "郑悦",
+			"pin_yin": "zhengyue",
+			"nicknames": "小悦悦",
+			"catch_phase": "想给你们越来越多~~ 正能量",
+			"member_id": 530451,
+			"weibo_uid": 6218546242
+		},
+		{
+			"chinese_name": "陈桂君",
+			"pin_yin": "chenguijun",
+			"nicknames": "阿邪;君桂妹",
+			"catch_phase": "Bling,Bling, 陈桂君，阿邪阿邪~~ 天真无邪！",
+			"member_id": 417311,
+			"weibo_uid": 6034777701
+		},
+		{
+			"chinese_name": "陈梓荧",
+			"pin_yin": "chenziying",
+			"nicknames": "pica",
+			"catch_phase": "Shiny~ Beauty! Picapica~ P!",
+			"member_id": 417315,
+			"weibo_uid": 6034488423
+		},
+		{
+			"chinese_name": "代玲",
+			"pin_yin": "dailing",
+			"nicknames": "呆呆",
+			"catch_phase": "呆呆地住在你心里，想要成为你的~~ Darling!",
+			"member_id": 417316,
+			"weibo_uid": 6047256977
+		},
+		{
+			"chinese_name": "杜秋霖",
+			"pin_yin": "duqiulin",
+			"nicknames": "小蚯蚓",
+			"catch_phase": "【唱】在树的那边，窟的里边，有一只~~ 【唱】小！蚯！蚓！",
+			"member_id": 417317,
+			"weibo_uid": 6034495212
+		},
+		{
+			"chinese_name": "刘嘉怡",
+			"pin_yin": "liujiayi",
+			"nicknames": "七妹",
+			"catch_phase": "欢迎来到非常~~ 6+1！",
+			"member_id": 417318,
+			"weibo_uid": 6033922472
+		},
+		{
+			"chinese_name": "龙亦瑞",
+			"pin_yin": "longyirui",
+			"nicknames": "短腿柯基;龙哥哥;瑞子",
+			"catch_phase": "好吃不如饺子，可爱不如~~ 瑞子！",
+			"member_id": 417320,
+			"weibo_uid": 6034492357
+		},
+		{
+			"chinese_name": "农燕萍",
+			"pin_yin": "nongyanping",
+			"nicknames": "小奶瓶",
+			"catch_phase": "萍水相逢遇见你，浓情蜜意~~ 小奶瓶！",
+			"member_id": 417321,
+			"weibo_uid": 6034212582
+		},
+		{
+			"chinese_name": "王翠菲",
+			"pin_yin": "wangcuifei",
+			"nicknames": "吧宠;小加菲",
+			"catch_phase": "我不是加菲猫，我是你们的~~ 小加菲！",
+			"member_id": 417324,
+			"weibo_uid": 6034777428
+		},
+		{
+			"chinese_name": "王偲越",
+			"pin_yin": "wangsiyue",
+			"nicknames": "小四月",
+			"catch_phase": "你是那人间四月天，我是你们的~~ 小！四！月！",
+			"member_id": 417326,
+			"weibo_uid": 6034210438
+		},
+		{
+			"chinese_name": "王秭歆",
+			"pin_yin": "wangzixin",
+			"nicknames": "小王子",
+			"catch_phase": "来自B612星球的是~~ 小王子",
+			"member_id": 417329,
+			"weibo_uid": 6034785630
+		},
+		{
+			"chinese_name": "杨可璐",
+			"pin_yin": "yangkelu",
+			"nicknames": "羊驼",
+			"catch_phase": "",
+			"member_id": 417330,
+			"weibo_uid": 6034780322
+		},
+		{
+			"chinese_name": "杨媛媛",
+			"pin_yin": "yangyuanyuan",
+			"nicknames": "杨导;杨⭕⭕",
+			"catch_phase": "圈圈⭕⭕圈圈,圈圈⭕⭕~~ 圈圈!",
+			"member_id": 417331,
+			"weibo_uid": 6034493369
+		},
+		{
+			"chinese_name": "于珊珊",
+			"pin_yin": "yushanshan",
+			"nicknames": "33",
+			"catch_phase": "Yui, Yui-er, Yui-est，我是化身终极形态的~~ 珊！珊！",
+			"member_id": 417332,
+			"weibo_uid": 6034779235
+		},
+		{
+			"chinese_name": "赖俊亦",
+			"pin_yin": "laijunyi",
+			"nicknames": "小赖",
+			"catch_phase": "我是赖在你心里的~~ 小赖皮",
+			"member_id": 530440,
+			"weibo_uid": 6226714312
+		},
+		{
+			"chinese_name": "张秋怡",
+			"pin_yin": "zhangqiuyi",
+			"nicknames": "秋衣",
+			"catch_phase": "秋天到了，最不可缺少的是秋裤，你们最不可缺少的是~~ 秋衣！",
+			"member_id": 530450,
+			"weibo_uid": 6224124376
+		},
+		{
+			"chinese_name": "梁婉琳",
+			"pin_yin": "liangwanlin",
+			"nicknames": "晚晚;言言子",
+			"catch_phase": "森林中住着小精灵,你们的心中住着~~ 梁婉琳!",
+			"member_id": 601302,
+			"weibo_uid": 6375460788
+		},
+		{
+			"chinese_name": "毕瑞珊",
+			"pin_yin": "biruishan",
+			"nicknames": "老毕;小毕",
+			"catch_phase": "",
+			"member_id": 607507,
+			"weibo_uid": 6196031461
+		},
+		{
+			"chinese_name": "何梦瑶",
+			"pin_yin": "hemengyao",
+			"nicknames": "摇一摇",
+			"catch_phase": "梦里花落知多少,shake your body~~ 摇一摇",
+			"member_id": 607516,
+			"weibo_uid": 6372310435
+		},
+		{
+			"chinese_name": "余芷媛",
+			"pin_yin": "yuzhiyuan",
+			"nicknames": "否否",
+			"catch_phase": "送你一份礼物,是一个可爱的~~ 芷媛",
+			"member_id": 607594,
+			"weibo_uid": 6375254027
+		},
+		{
+			"chinese_name": "程子钰",
+			"pin_yin": "chengziyu",
+			"nicknames": "鱼崽",
+			"catch_phase": "Pilipala Pilipala, 天上下的是什么雨？~~ 橙子雨",
+			"member_id": 607510,
+			"weibo_uid": 6372420855
+		},
+		{
+			"chinese_name": "邓惠恩",
+			"pin_yin": "denghuien",
+			"nicknames": "小凳子;酥饼",
+			"catch_phase": "温暖的家里有桌子、椅子，还有~~小凳子",
+			"member_id": 607511,
+			"weibo_uid": 6375256585
+		},
+		{
+			"chinese_name": "符冰冰",
+			"pin_yin": "fubingbing",
+			"nicknames": "冰冰;Bubu",
+			"catch_phase": "你幸不幸福？~~ 幸福",
+			"member_id": 607513,
+			"weibo_uid": 6376516458
+		},
+		{
+			"chinese_name": "黄楚茵",
+			"pin_yin": "huangchuyin",
+			"nicknames": "奶黄包;央央",
+			"catch_phase": "储藏你们的声音,我就是~~黄楚茵",
+			"member_id": 607515,
+			"weibo_uid": 6371457043
+		},
+		{
+			"chinese_name": "罗可嘉",
+			"pin_yin": "luokejia",
+			"nicknames": "小安",
+			"catch_phase": "今天不想起床怎么办? 要呆在小安的~~被窝里",
+			"member_id": 607521,
+			"weibo_uid": 6375457642
+		},
+		{
+			"chinese_name": "林芝",
+			"pin_yin": "linzhi",
+			"nicknames": "木木西;007",
+			"catch_phase": "7654321,我是你的~007",
+			"member_id": 607523,
+			"weibo_uid": 6195974151
+		},
+		{
+			"chinese_name": "汪慕远",
+			"pin_yin": "wangmuyuan",
+			"nicknames": "小妖",
+			"catch_phase": "妖皇大人现身, 快拨打~110",
+			"member_id": 607524,
+			"weibo_uid": 6195671369
+		},
+		{
+			"chinese_name": "吴羽霏",
+			"pin_yin": "wuyufei",
+			"nicknames": "无语飞",
+			"catch_phase": "啾~啾~无语飞,无语~~就会飞",
+			"member_id": 607591,
+			"weibo_uid": 6371458040
+		},
+		{
+			"chinese_name": "叶晓梦",
+			"pin_yin": "yexiaomeng",
+			"nicknames": "big梦",
+			"catch_phase": "日有所思,夜有~~晓梦",
+			"member_id": 607592,
+			"weibo_uid": 6375458920
+		},
+		{
+			"chinese_name": "李晨曦",
+			"pin_yin": "lichenxi",
+			"nicknames": "抖抖",
+			"catch_phase": "黎明后照耀你们的是~~晨曦",
+			"member_id": 624311,
+			"weibo_uid": 6408519423
+		},
+		{
+			"chinese_name": "舒湘",
+			"pin_yin": "shuxiang",
+			"nicknames": "湘湘",
+			"catch_phase": "书声琅琅，书香门第",
+			"member_id": 624312,
+			"weibo_uid": 6406929220
+		},
+		{
+			"chinese_name": "王梦媛",
+			"pin_yin": "wangmengyuan",
+			"nicknames": "妙蛙种子;沧子",
+			"catch_phase": "每天晚上都要梦见你们的~~ 沧子",
+			"member_id": 624313,
+			"weibo_uid": 6406931286
+		},
+		{
+			"chinese_name": "徐佳音",
+			"pin_yin": "xujiayin",
+			"nicknames": "喑爷",
+			"catch_phase": "灵魂之音,愿如你心~",
+			"member_id": 624314,
+			"weibo_uid": 6415616565
+		},
+		{
+			"chinese_name": "肖文静",
+			"pin_yin": "xiaowenjing",
+			"nicknames": "茶搽",
+			"catch_phase": "无由持一碗，寄与爱茶人~",
+			"member_id": 624315,
+			"weibo_uid": 6408526565
+		},
+		{
+			"chinese_name": "张紫颖",
+			"pin_yin": "zhangziying",
+			"nicknames": "颖妹;影子",
+			"catch_phase": "在黑夜里默默守护你们的是~~ 影子",
+			"member_id": 624318,
+			"weibo_uid": 6415616948
+		}
+	]
+}
