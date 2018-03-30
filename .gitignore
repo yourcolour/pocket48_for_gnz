@@ -3,5 +3,5 @@
 .idea/
 venv/
 */__pycache__/
-tmp-record/record-aac/
+tmp-record/record-acc/
 tmp-record/record-raw/

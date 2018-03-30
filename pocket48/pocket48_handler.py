@@ -319,7 +319,7 @@ class Pocket48Handler:
                     my_logger.debug('图片')
                     if 'url' in bodys.keys():
                         url = bodys['url']
-                        if global_config.USING_COOLQ_PRO == True:
+                        if global_config.USING_COOLQ_PRO is True:
                             file_name = image_download(url, '/Users/yourcolour/coolq/data/image')
                             message = message + ('【图片】[%s]-%s: \n[CQ:image,file=%s]\n' % (msg['msgTimeStr'], extInfo['senderName'], file_name))
                         else:
@@ -333,7 +333,7 @@ class Pocket48Handler:
                     bodys = json.loads(msg['bodys'])
                     if 'url' in bodys.keys():
                         url = bodys['url']
-                        if global_config.USING_COOLQ_PRO == True:
+                        if global_config.USING_COOLQ_PRO is True:
                             file_name = sound_downloda(url)
                             notic_message = ('【%s语音】[%s]: \n' % (extInfo['senderName'], msg['msgTimeStr']))
                             QQHandler.send_to_groups(self.member_room_msg_groups, notic_message)
