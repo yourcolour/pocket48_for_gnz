@@ -25,6 +25,7 @@ def update_conf():
     global_config.ACTIVE_MEMBER_ROOM_ID_LIST = ConfigReader.get_all_member_room_id_list()
     global_config.LIVING_MEMBER_ID_LIST = ConfigReader.get_living_member_id_list()
 
+    global_config.LAST_TICKET_INFO_ID = ConfigReader.get_property('last_ticket_info_id', 'id')
     global_config.ROBOT_QQ = ConfigReader.get_property('qq_conf', 'qq')
     global_config.AUTO_REPLY_GROUPS = ConfigReader.get_property('qq_conf', 'auto_reply_groups').split(';')
     global_config.MEMBER_ROOM_MSG_GROUPS = ConfigReader.get_property('qq_conf', 'member_room_msg_groups').split(';')
@@ -66,8 +67,8 @@ bilibili_video_list = pocket48_handler.get_bilibili_video_list()
 pocket48_handler.init_bilibili_video_queues(bilibili_video_list)
 # 成员房间消息初始队列化
 pocket48_handler.init_msg_queues(global_config.ACTIVE_MEMBER_ROOM_ID_LIST)
-# QQHandler.send_to_groups(pocket48_handler.member_room_msg_groups, '中泰机器人已启动')
-
+# 用于标记星期二票务
+count = 0
 # 二.接收群消息的反应
 @bot.on_message('group')
 def onQQMessage(context):
@@ -292,10 +293,12 @@ def onQQMessage(context):
             msg2 = ('[CQ:record,file=%s]' % sound)
             QQHandler.send_to_groups_by_order(pocket48_handler.member_room_msg_groups, msg1)
             QQHandler.send_to_groups_by_order(pocket48_handler.member_room_msg_groups, msg2)
-        # elif content == '-测试':
-        #     sound = 'test.silk'
-        #     msg2 = ('[CQ:record,file=%s]' % sound)
-        #     QQHandler.send_to_groups_by_order(pocket48_handler.member_room_msg_groups, msg2)
+        elif content == '-最新票务':
+            if util.is_Tuesday():
+                html = pocket48_handler.get_page()
+                pocket48_handler.parse_page_now(html)
+            else:
+                QQHandler.send_to_groups_by_order(pocket48_handler.member_room_msg_groups, '最新票务只能在周二获取')
         else:  # 无法识别命令
             return QQHandler.send_to_groups_by_order(pocket48_handler.member_room_msg_groups, global_config.NO_SUCH_COMMAND, True)
     
@@ -349,7 +352,7 @@ def get_room_msgs():
             return
 
 
-@scheduler.scheduled_job('cron', minute='*/2', second='40')
+@scheduler.scheduled_job('cron', minute='*', second='40')
 def get_member_lives():
     global pocket48_handler
     r = pocket48_handler.get_member_live_msg()
@@ -373,6 +376,19 @@ def notify_bilibii_update():
     global pocket48_handler
     bilibili_video_list = pocket48_handler.get_bilibili_video_list()
     pocket48_handler.parse_bilibili_video_list(bilibili_video_list)
+
+@scheduler.scheduled_job('cron', second='*/30', hour='11,12,13', day_of_week='1')
+def notify_latest_ticket_info():
+    global count
+    if count < 1:
+        my_logger.info('检查周二最新票务情况')
+        global pocket48_handler
+        html = pocket48_handler.get_page()
+        msg = pocket48_handler.parse_page(html)
+        if msg:
+            count += 1
+            msg += '票务地址:https://shop.48.cn/tickets/item/%s' % global_config.LAST_TICKET_INFO_ID
+            QQHandler.send_to_groups(pocket48_handler.member_room_msg_groups, msg)
 
 
 # @scheduler.scheduled_job('cron', second='0', minute='0', hour='0', day_of_week='*')

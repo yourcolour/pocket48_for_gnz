@@ -469,6 +469,14 @@ def is_in_limit_time():
     else:
         return False
 
+def is_Tuesday():
+    d = datetime.datetime.now()
+    day = d.weekday()
+    if day == 1:
+        return True
+    else:
+        return False
+
 # 返回录音文件夹下, 某一关键字的文件名称列表        
 def record_key_word_list(key_word_name, key_word_unique):
     top_dir = '/Users/yourcolour/coolq/data/record'

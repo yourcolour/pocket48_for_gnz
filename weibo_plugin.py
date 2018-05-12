@@ -24,7 +24,7 @@ def update_weibo_conf():
         my_logger.error('微博UID填写错误，请检查')
 
 
-@scheduler.scheduled_job('cron', minute='*', second='55')
+@scheduler.scheduled_job('cron', second='*/55')
 def monitor_member_weibo():
     global weibo_monitor
 

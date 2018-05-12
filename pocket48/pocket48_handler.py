@@ -2,7 +2,7 @@
 
 import requests
 import json
-
+from pyquery import PyQuery as pq
 import time
 from log.my_logger import logger as my_logger
 from qq.qqhandler import QQHandler
@@ -132,7 +132,7 @@ class Pocket48Handler:
             my_logger.error(e)
         return r.text
 
-    def get_member_room_msg(self, room_id, limit=10):
+    def get_member_room_msg(self, room_id, limit=15):
         """
         获取成员房间消息
         :param limit:
@@ -860,6 +860,41 @@ class Pocket48Handler:
                 break
         r = self.get_member_room_msg(target_room_id, num)
         self.parse_room_msg(r, name, True)
+
+    def get_page(self):
+        id = global_config.LAST_TICKET_INFO_ID
+        url = 'https://shop.48.cn/Tickets/Item/%s' % id
+        request = urllib.request.Request(url)
+        try:
+            response = urllib.request.urlopen(request)
+            html =str(response.read(),'utf-8')
+            if (html):
+                return html
+        except Exception as e:
+            my_logger.error('请求票务接口出错')
+            print (e)
+            return
+
+    def parse_page (self, content):
+        if ('广州市天河区林和西路161号中泰国际广场3F' in content):
+            p = pq(content)
+            detail = p('div').filter('.lb_1').children('p').text()
+            detail2 = '直播\n'.join('\n'.join(detail.split('  ')).split('直播 '))
+            return detail2
+        else:
+            return ''
+
+    def parse_page_now (self, content):
+        # id = global_config.LAST_TICKET_INFO_ID
+        # url = 'https://shop.48.cn/Tickets/Item/%s' % id
+        if ('广州市天河区林和西路161号中泰国际广场3F' in content):
+            p = pq(content)
+            detail = p('div').filter('.lb_1').children('p').text()
+            detail2 = '直播\n'.join('\n'.join(detail.split('  ')).split('直播 '))
+            detail2 += '票务地址:https://shop.48.cn/tickets/item/%s' % global_config.LAST_TICKET_INFO_ID
+            QQHandler.send_to_groups_by_order(self.member_room_msg_groups, detail2)
+        else:
+            QQHandler.send_to_groups_by_order(self.member_room_msg_groups, '尚未有最新票务')
 
 
 

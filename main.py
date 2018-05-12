@@ -21,7 +21,7 @@ if __name__ == '__main__':
     import pocket48_plugin
     from pocket48_plugin import bot
     import statistic_plugin
-    import weibo_plugin
+    # import weibo_plugin
     # import modian_plugin
 
     # 动态获取本机ip

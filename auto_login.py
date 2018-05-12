@@ -42,7 +42,7 @@ def run_docker_login_coolq():
     print ('运行docker')
     p = subprocess.Popen(cmd, shell=True)
 
-    time.sleep(5)
+    time.sleep(7)
 
     login()
 
@@ -51,7 +51,7 @@ def login():
         connect_password = 'MAX8char'
         browser = webdriver.Chrome()
         browser.maximize_window()
-        browser.implicitly_wait(10)
+        browser.implicitly_wait(15)
         browser.set_page_load_timeout(30)
         browser.get('http://127.0.0.1:9000')
         browser.find_element_by_id('noVNC_connect_button').click()
