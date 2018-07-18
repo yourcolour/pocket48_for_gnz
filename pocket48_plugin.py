@@ -377,7 +377,7 @@ def notify_bilibii_update():
     bilibili_video_list = pocket48_handler.get_bilibili_video_list()
     pocket48_handler.parse_bilibili_video_list(bilibili_video_list)
 
-@scheduler.scheduled_job('cron', second='*/30', hour='11,12,13', day_of_week='1')
+@scheduler.scheduled_job('cron', second='*/30', hour='11,12,13,14,15,16,17,18', day_of_week='1')
 def notify_latest_ticket_info():
     global count
     if count < 1:

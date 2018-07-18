@@ -290,7 +290,7 @@ member_list = [
     {
     'pin_yin':'wangcuifei',
     'name':'王翠菲',
-    'nicknames': '吧宠;小加菲',
+    'nicknames': '小加菲',
     'catch_phase': '我不是加菲猫，我是你们的~~ 小加菲！'
     },
     {
@@ -299,12 +299,12 @@ member_list = [
     'nicknames': '小四月',
     'catch_phase': '你是那人间四月天，我是你们的~~ 小！四！月！'
     },
-    {
-    'pin_yin':'wangzixin',
-    'name':'王秭歆',
-    'nicknames': '小王子',
-    'catch_phase': '来自B612星球的是~~ 小王子'
-    },
+    # {
+    # 'pin_yin':'wangzixin',
+    # 'name':'王秭歆',
+    # 'nicknames': '小王子',
+    # 'catch_phase': '来自B612星球的是~~ 小王子'
+    # },
     {
     'pin_yin':'yangkelu',
     'name':'杨可璐',
@@ -323,12 +323,12 @@ member_list = [
     'nicknames': '33',
     'catch_phase': 'Yui, Yui-er, Yui-est，我是化身终极形态的~~ 珊！珊！'
     },
-    # {
-    # 'pin_yin':'zhaoxinyu',
-    # 'name':'赵欣雨',
-    # 'nicknames': 'candy',
-    # 'catch_phase': '爱吃棉花糖（炸药）的小可爱就是~~ Candy！'
-    # },
+    {
+    'pin_yin':'zhaoxinyu',
+    'name':'赵欣雨',
+    'nicknames': 'candy',
+    'catch_phase': '爱吃棉花糖（炸药）的小可爱就是~~ Candy！'
+    },
     {
     'pin_yin':'laijunyi',
     'name':'赖俊亦',

@@ -57,7 +57,7 @@ def login():
         browser.find_element_by_id('noVNC_connect_button').click()
         browser.find_element_by_id('noVNC_password_input').send_keys(connect_password)
         browser.find_element_by_id('noVNC_password_button').click()
-        browser.quit()
+        # browser.quit()
 
 def auto_login():
     run_docker_login_coolq()
